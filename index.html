@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
+    <title>Chagas Silva - Portfolio</title>
+    <meta
+      name="description"
+      content="Desenvolvedor Full Stack com foco em soluções modernas, responsivas e eficientes. Portfólio com projetos web e automações."
+    />
+    <meta
+      name="keywords"
+      content="desenvolvedor full stack, portfólio web, programador, front-end, back-end, React, Node.js, automação, projetos, JavaScript"
+    />
+    <meta name="author" content="Chagas Silva" />
+    <meta name="robots" content="index, follow" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio VCard Estilo Ryan</title>
+
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp, etc) -->
+    <meta property="og:title" content="Chagas Silva" />
+    <meta
+      property="og:description"
+      content="Desenvolvedor Full Stack com foco em soluções modernas, responsivas e eficientes. Portfólio com projetos web e automações."
+    />
+    <meta property="og:image" content="https://portfolio.chagassilva.com/assets/img-perfil-transparente.png" />
+    <meta property="og:url" content="https://portfolio.chagassilva.com" />
+    <meta property="og:type" content="Portfolio" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -18,7 +39,8 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,400;0,800;1,400;1,700&family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styleddd.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsividade.css" />
   </head>
   <body>
     <div id="particles-js"></div>
@@ -86,28 +108,30 @@
       <section class="profile">
         <div class="profile-img-container">
           <img src="assets/img-perfil-transparente.png" alt="Foto Perfil" />
-          <!-- <svg
-            viewBox="0 0 500 150"
-            preserveAspectRatio="none"
-            class="wave-bottom"
-          >
-            <path
-              d="M0.00,49.98 C150.00,150.00 350.00,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-              fill="#fff"
-            />
-          </svg> -->
         </div>
         <h1>Chaga Silva</h1>
         <p id="typed-text"></p>
 
         <div class="social-icons">
-          <a href="https://www.linkedin.com/in/chagassilva0409" target="_blank"
-            ><i class="fa-brands fa-linkedin" style="color: #0b67c1"></i
-          ></a>
-          <a href="https://www.instagram.com/chagassilva04/" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/chagassilva0409"
+            target="_blank"
+            class="tooltip-custom"
+          >
+            <span class="tooltip-text">linkedin</span>
+            <i class="fa-brands fa-linkedin" style="color: #0b67c1"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/chagassilva04"
+            target="_blank"
+            class="tooltip-custom"
+            ><span class="tooltip-text">instagram</span
             ><i class="fa-brands fa-square-instagram" style="color: #d501cf"></i
           ></a>
-          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/chagassilva" class="tooltip-custom"
+            ><span class="tooltip-text">github</span
+            ><i class="fa-brands fa-github"></i
+          ></a>
         </div>
       </section>
 
@@ -120,7 +144,7 @@
             <h2 class="fade-in-up">
               Oi, eu sou <strong>Chagas Silva</strong>
               <strong>Desenvolvedor <span>Front-end</span></strong> com foco em
-              automações e integrações com n8n
+              automações e integrações com n8n.
             </h2>
             <p>Transformando ideias em interfaces e automações inteligentes.</p>
           </div>
@@ -133,7 +157,8 @@
               </button>
             </a>
             <a href="#" onclick="showSection('sobre')" class="btn-sobre-mim">
-              <button>
+              <button class="tooltip-custom">
+                <span class="tooltip-text">Mais sobre mim</span>
                 <i class="fa-solid fa-user" style="color: #ffff"></i> Mais sobre
                 mim
               </button>

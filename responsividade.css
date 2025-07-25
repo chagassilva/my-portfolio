@@ -1,0 +1,229 @@
+@media (max-width: 480px) {
+  /* Estilos específicos para telas muito pequenas */
+  #particles-js {
+    display: none;
+  }
+
+  .vcard-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .menu {
+    background: #fff;
+    color: #fff;
+    padding: 40px 20px;
+    max-width: 1000px;
+    border-radius: 6px;
+    height: 100px;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    width: auto;
+    border-radius: none;
+  }
+
+  .menu a {
+    padding: 0 15px;
+    border-bottom: none;
+  }
+
+  .menu a:hover {
+    color: #747474;
+    transform: translateX(5px);
+  }
+
+  .menu-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    overflow: visible;
+  }
+
+  .menu-item::after {
+    content: attr(data-label);
+    position: absolute;
+    left: 0px;
+    top: -50%;
+    transform: translate3d(30%);
+    background-color: #085454;
+    color: white;
+    padding: 6px 12px;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    opacity: 0;
+    transition: width 0.3s ease, opacity 0.3s ease;
+    font-size: 14px;
+    z-index: 10;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .menu-item:hover::after {
+    width: auto;
+    opacity: 1;
+  }
+
+#home {
+  
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.text-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  font-size: 15px;
+}
+
+.container-btn {
+  margin-top: 80px;
+}
+
+#contato{
+  width: 100vw;
+}
+
+
+}
+
+/* Smartphones médios e tablets em modo retrato */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Estilos para celulares grandes e tablets menores */
+  #particles-js {
+    display: none;
+  }
+
+  .vcard-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+   .menu {
+    background: #fff;
+    color: #fff;
+    padding: 40px 20px;
+    max-width: 1000px;
+    border-radius: 6px;
+    height: 100px;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    width: auto;
+    border-radius: none;
+  }
+
+  .menu a {
+    padding: 0 15px;
+    border-bottom: none;
+  }
+
+   .menu a:hover {
+    color: #747474;
+    transform: translateX(5px);
+  }
+
+  .menu-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    overflow: visible;
+  }
+
+  .menu-item::after {
+    content: attr(data-label);
+    position: absolute;
+    left: 0px;
+    top: -50%;
+    transform: translate3d(30%);
+    background-color: #085454;
+    color: white;
+    padding: 6px 12px;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30%;
+    opacity: 0;
+    transition: width 0.3s ease, opacity 0.3s ease;
+    font-size: 14px;
+    z-index: 10;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .menu-item:hover::after {
+    width: auto;
+    opacity: 1;
+  }
+
+  #home {
+  
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.text-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  font-size: 15px;
+}
+
+.container-btn {
+  margin-top: 80px;
+}
+
+#contato{
+  width: 100vw;
+}
+
+}
+
+/* Tablets e dispositivos médios (ex: iPad) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Estilos para tablets e notebooks menores */
+}
+
+/* Laptops e desktops padrão */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* Estilos para notebooks e desktops comuns */
+}
+
+/* Desktops grandes */
+@media (min-width: 1280px) and (max-width: 1439px) {
+  /* Monitores maiores */
+}
+
+/* Telas muito grandes (ultrawide, 4K, etc) */
+@media (min-width: 1440px) {
+  /* Estilos para telas grandes */
+}
