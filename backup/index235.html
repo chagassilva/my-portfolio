@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Particles com JSON</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <main class="main-content">
+      <section class="menu">
+        <nav>
+          <ul>
+            <li>
+              <a href="#home"><i class="fas fa-home"></i><span>Home</span></a>
+            </li>
+            <li>
+              <a href="#sobre"><i class="fas fa-user"></i><span>Sobre</span></a>
+            </li>
+            <li>
+              <a href="#projetos"
+                ><i class="fas fa-briefcase"></i><span>Projetos</span></a
+              >
+            </li>
+            <li>
+              <a href="#habilidades"
+                ><i class="fas fa-star"></i><span>Habilidades</span></a
+              >
+            </li>
+            <li>
+              <a href="#contato"
+                ><i class="fas fa-envelope"></i><span>Contato</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="container">
+        <div class="perfil">
+          <img src="assets/img_perfil.jpg" />
+          <h1>Chagas Silva</h1>
+          <h4>Developer</h4>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <div >
+          <h1>ddddd</h1>
+        </div>
+      </section>
+    </main>
+
+    <!-- Biblioteca -->
+    <script src="particles.min.js"></script>
+
+    <!-- Inicialização com JSON externo -->
+    <script>
+      particlesJS.load("particles-js", "particles-config.json", function () {
+        console.log("Particles carregado com sucesso!");
+      });
+    </script>
+  </body>
+</html>

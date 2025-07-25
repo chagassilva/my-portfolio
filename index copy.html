@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio VCard Estilo Ryan</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,400;0,800;1,400;1,700&family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styleddd.css" />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div class="vcard-container">
+      <!-- Menu lateral -->
+      <nav class="menu">
+        <ul>
+          <li>
+            <a
+              href="#"
+              onclick="showSection('home')"
+              class="menu-item"
+              data-label="Home"
+            >
+              <i class="fas fa-house"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="showSection('sobre')"
+              class="menu-item"
+              data-label="Sobre"
+              ><i class="fas fa-user"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="showSection('habilidades')"
+              class="menu-item"
+              data-label="Habilidades"
+              ><i class="fas fa-code"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="showSection('projetos')"
+              class="menu-item"
+              data-label="Projetos"
+              ><i class="fas fa-folder-open"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="showSection('contato')"
+              class="menu-item"
+              data-label="Contato"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Perfil -->
+      <section class="profile">
+        <div class="profile-img-container">
+          <img src="assets/img_perfil.jpg" alt="Foto Perfil" />
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            class="wave-bottom"
+          >
+            <path
+              d="M0.00,49.98 C150.00,150.00 350.00,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+              fill="#fff"
+            />
+          </svg>
+        </div>
+        <h1>Chaga Silva</h1>
+        <p id="typed-text"></p>
+        <div></div>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/chagassilva0409" target="_blank"
+            ><i class="fa-brands fa-linkedin" style="color: #0b67c1"></i
+          ></a>
+          <a href="https://www.instagram.com/chagassilva04/" target="_blank"
+            ><i class="fa-brands fa-square-instagram" style="color: #d501cf"></i
+          ></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </section>
+
+      <!-- Conteúdo -->
+      <main class="content">
+        <div id="home" class="section active">
+          <h2>Transformando ideias em interfaces e automações inteligentes.</h2>
+          <hr />
+          <p>
+            <span>
+            Meu nome é chagas silvasou desenvolvedor front-end com foco em
+            automações e integrações com n8n.
+            </span>
+          </p>
+          <div class="home-highlights">
+            <div class="card">
+              <h3>💻 Front-end Moderno</h3>
+              <p>
+                Criação de interfaces responsivas e intuitivas usando HTML, CSS
+                e JS puro, com foco em performance e usabilidade.
+              </p>
+            </div>
+            <div class="card">
+              <h3>🔁 Integrações com n8n</h3>
+              <p>
+                Automatizações poderosas para APIs, formulários, e-mails, bancos
+                de dados e muito mais com o n8n.
+              </p>
+            </div>
+            <div class="card">
+              <h3>🚀 Projetos Otimizados</h3>
+              <p>
+                Desenvolvimento centrado em agilidade, com código limpo,
+                componentes reutilizáveis e foco em resultados reais.
+              </p>
+            </div>
+          </div>
+
+          <div class="ver-projetos">
+          <a href="/" class="btn-saiba-mais"><i class="fa-solid fa-eye" style="color: #001542;"></i> Ver meus projetos</a>
+          </div>
+        </div>
+
+        <div id="sobre" class="section">
+          <h1>Sobre</h1>
+          <br />
+          <hr />
+          <p>
+            Olá! Me chamo <strong>Chagas silva</strong>, desenvolvedor front-end
+            com foco em automações usando n8n, sou apaixonado por tecnologia e
+            soluções criativas. Tenho mais de 6 anos de experiência como gestor
+            de logística, onde desenvolvi um olhar analítico, foco em processos
+            e soluções eficientes — habilidades que hoje aplico na criação de
+            interfaces funcionais e fluxos automatizados para web.
+          </p>
+          <br />
+
+          <p>
+            Sou graduado em
+            <strong>Gestão da Tecnologia da Informação</strong> e pós-graduado
+            em <strong>Desenvolvimento Full Stack</strong>, o que me dá uma base
+            sólida para atuar tanto no front quanto na integração com APIs e
+            automações.
+          </p>
+          <br />
+
+          <p>
+            Hoje, meu foco é construir aplicações web modernas com
+            <strong>React</strong>, <strong>JavaScript</strong>,
+            <strong>HTML/CSS</strong> e integrar sistemas usando n8n para criar
+            experiências completas e produtivas.
+          </p>
+
+          <p>
+            Atualmente, estou disponível para freelas, parcerias ou
+            oportunidades profissionais. Bora construir algo juntos?
+          </p>
+        </div>
+
+        <div id="habilidades" class="section">
+          <h1>Habilidades</h1>
+          <hr />
+
+          <div class="skills-container">
+            <div class="skill-card">
+              <h3>💻 Hard Skills</h3>
+              <ul>
+                <li>React</li>
+                <li>JavaScript ES6+</li>
+                <li>HTML5 / CSS3</li>
+                <li>n8n (automação)</li>
+                <li>Integração com APIs</li>
+                <li>Git / GitHub</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <h3>🤝 Soft Skills</h3>
+              <ul>
+                <li>Comunicação clara</li>
+                <li>Resolução de problemas</li>
+                <li>Organização e planejamento</li>
+                <li>Trabalho em equipe</li>
+                <li>Adaptabilidade</li>
+                <li>Pensamento analítico</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="projetos" class="section">
+          <h1>Projetos</h1>
+          <hr />
+          <div class="galeria">
+            <!-- Projeto 1 -->
+            <div class="card-projeto">
+              <img src="assets/img_perfil.jpg" alt="Projeto 1" />
+              <div class="overlay">
+                <h2>DevCortes</h2>
+
+                <a href="#" target="_blank">Ver Projeto</a>
+                <div class="badges">
+                  <span class="badge html">HTML</span>
+                  <span class="badge css">CSS</span>
+                  <span class="badge js">JAVASCRIPT</span>
+                  <span class="badge node">NODE</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="card-projeto">
+              <img src="assets/img_perfil.jpg" alt="Projeto 2" />
+              <div class="overlay">
+                <h2>DevBurger</h2>
+                <a href="#" target="_blank">Ver Projeto</a>
+              </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="card-projeto">
+              <img src="assets/img_perfil.jpg" alt="Projeto 3" />
+              <div class="overlay">
+                <h2>DevUser</h2>
+                <a href="#" target="_blank">Ver Projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="contato" class="section">
+          <h1>Contato</h1>
+          <p>Email: voce@email.com</p>
+          <p>WhatsApp: (00) 00000-0000</p>
+        </div>
+      </main>
+    </div>
+
+    <script src="scriptex.js"></script>
+    <script src="particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      particlesJS.load("particles-js", "particles-config.json", function () {
+        console.log("Particles carregado com sucesso!");
+      });
+    </script>
+
+    <script>
+      const typed = new Typed("#typed-text", {
+        strings: ["Web Developer", "FrontEnd", "N8N Automations"],
+        typeSpeed: 70,
+        backSpeed: 50,
+        backDelay: 1500,
+        startDelay: 500,
+        loop: true,
+        showCursor: true,
+        cursorChar: "",
+      });
+    </script>
+  </body>
+</html>

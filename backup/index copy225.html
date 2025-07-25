@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Particles.js container -->
+  <div id="particles-js"></div>
+
+  <!-- Container principal -->
+  <div class="container">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="assets/perfil.jpg" alt="Foto de Perfil" />
+        <h1>Seu Nome</h1>
+        <p>Desenvolvedor Web</p>
+      </div>
+      <nav class="nav-menu">
+        <a href="#about">Sobre</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experiência</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contact">Contato</a>
+      </nav>
+      <div class="social-icons">
+        <a href="#"><img src="assets/github.svg" alt="GitHub" /></a>
+        <a href="#"><img src="assets/linkedin.svg" alt="LinkedIn" /></a>
+      </div>
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+      <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor web apaixonado por tecnologia e design.</p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+          <span>HTML</span>
+          <div class="progress"><div style="width: 90%"></div></div>
+        </div>
+        <div class="skill">
+          <span>CSS</span>
+          <div class="progress"><div style="width: 85%"></div></div>
+        </div>
+        <div class="skill">
+          <span>JavaScript</span>
+          <div class="progress"><div style="width: 75%"></div></div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2>Experiência</h2>
+        <p>Desenvolvedor Front-End na Empresa X (2022 - atual)</p>
+      </section>
+
+      <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Projetos em breve...</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contato</h2>
+        <form>
+          <input type="text" placeholder="Seu nome" required />
+          <input type="email" placeholder="Seu email" required />
+          <textarea placeholder="Mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
