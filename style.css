@@ -698,8 +698,10 @@ padding: 0 10PX;
 /* Section Contato */
 
 #contato {
- width: 35vw;
+ width: 50vw;
  overflow: hidden;
+ margin: 0;
+ padding: 0;
 }
 
 .section-contato {
