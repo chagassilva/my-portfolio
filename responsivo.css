@@ -1,7 +1,6 @@
-
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 390px){
   /* Estilos para telas menores */
-   #particles-js {
+  #particles-js {
     display: none;
   }
 
@@ -83,8 +82,8 @@
     overflow-y: auto;
   }
 
-    #home h1 {
-   font-size: 25px;
+  #home h1 {
+    font-size: 25px;
   }
 
   .text-home {
@@ -96,7 +95,7 @@
     font-size: 15px;
   }
 
-   .text-home h2 {
+  .text-home h2 {
     font-size: 18px;
   }
 
@@ -104,7 +103,195 @@
     margin-top: 80px;
   }
 
-  
-    
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+    .skill-item {
+        margin: 5px;
+        padding: 5;
+        text-align: center;
+        font-size: 14px;
+        width: auto;
+    }
+
+     .galeria {
+        display: grid;
+    grid-template-columns: 1fr;
+    }
+
+    #contato{
+        width: 100%;
+    }
+
 }
 
+@media screen and (max-width: 844px){
+  /* Estilos para telas menores */
+  #particles-js {
+    display: none;
+  }
+
+  .vcard-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .menu {
+    background: #fff;
+    color: #fff;
+    padding: 40px 20px;
+    max-width: 1000px;
+    border-radius: 6px;
+    height: 100px;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    width: auto;
+    border-radius: none;
+  }
+
+  .menu a {
+    padding: 0 15px;
+    border-bottom: none;
+  }
+
+  .menu a:hover {
+    color: #747474;
+    transform: translateX(5px);
+  }
+
+  .menu-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    overflow: visible;
+  }
+
+  .menu-item::after {
+    content: attr(data-label);
+    position: absolute;
+    left: 0px;
+    top: -50%;
+    transform: translate3d(30%);
+    background-color: #085454;
+    color: white;
+    padding: 6px 12px;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    opacity: 0;
+    transition: width 0.3s ease, opacity 0.3s ease;
+    font-size: 14px;
+    z-index: 10;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .menu-item:hover::after {
+    width: auto;
+    opacity: 1;
+  }
+
+  #home {
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  #home h1 {
+    font-size: 25px;
+  }
+
+  .text-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-size: 15px;
+  }
+
+  .text-home h2 {
+    font-size: 18px;
+  }
+
+  .container-btn {
+    margin-top: 80px;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+
+    .skill-item {
+        margin: 5px;
+        padding: 5;
+        text-align: center;
+        font-size: 14px;
+    }
+
+     .galeria {
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .card-projeto {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    #contato{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1280px){
+  /* Estilos para telas menores */
+ 
+
+  #home h1 {
+    font-size: 35px;
+  }
+
+   .container-btn {
+    margin-top: 80px;
+  }
+
+  .text-home {
+    margin-top: 80px;
+    font-size: 15px;
+  }
+  
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+
+    .skill-item {
+        margin: 5px;
+        padding: 5;
+        text-align: center;
+        font-size: 14px;
+    }
+
+}
