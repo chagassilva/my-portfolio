@@ -54,7 +54,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 5,
+      "speed": 6,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -71,11 +71,11 @@
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "grab"
       },
       "onclick": {
         "enable": true,
-        "mode": "bubble"
+        "mode": "push"
       },
       "resize": true
     },

@@ -47,7 +47,6 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsividade.css" />
-    <link rel="stylesheet" href="dark.css" />
   </head>
   <body>
     <div id="particles-js"></div>
@@ -55,16 +54,12 @@
       <!-- Menu lateral -->
       <nav class="menu">
         <ul>
-          <!-- <button id="toggle-theme">🌙 Modo Escuro</button> -->
-          <li>
-            <a href="#" id="">
-              <img
-                id="toggleButton"
-                src="assets/light.png"
-                alt="Ícone de tema"
-              />
+          <!-- <li>
+            <a
+              href="/">
+              <img src="assets/logo-portfolio.svg" width="80px" height="40px">
             </a>
-          </li>
+          </li> -->
 
           <li>
             <a
@@ -103,7 +98,7 @@
               ><i class="fas fa-folder-open"></i
             ></a>
           </li>
-          <li class="noborder">
+          <li>
             <a
               href="#"
               onclick="showSection('contato')"
@@ -118,9 +113,9 @@
       <!-- Perfil -->
       <section class="profile">
         <div class="profile-img-container">
-          <img src="assets/perfil-portfolio.jfif.png" alt="Foto Perfil" />
+          <img src="assets/img-perfil-transparente.png" alt="Foto Perfil" />
         </div>
-        <h1 class="text-pop-up-left">Chaga Silva</h1>
+        <h1>Chaga Silva</h1>
         <p id="typed-text"></p>
 
         <div class="social-icons">
@@ -141,24 +136,21 @@
           ></a>
           <a href="https://github.com/chagassilva" class="tooltip-custom"
             ><span class="tooltip-text">github</span
-            ><i class="fa-brands fa-github git"></i
+            ><i class="fa-brands fa-github"></i
           ></a>
         </div>
       </section>
 
       <!-- Conteúdo -->
       <main class="content">
-        <div id="home" class="section active tilt-in-fwd-bl">
+        <div id="home" class="section active">
           <h1>Seja bem-vindo(a)</h1>
           <hr />
           <div class="text-home">
             <h2 class="fade-in-up">
               Oi, eu sou <strong>Chagas Silva</strong>
-              <strong
-                >Desenvolvedor
-                <span class="highlight-text text-pop-up-top">Front-end</span></strong
-              >
-              com foco em automações e integrações com n8n.
+              <strong>Desenvolvedor <span>Front-end</span></strong> com foco em
+              automações e integrações com n8n.
             </h2>
             <p>Transformando ideias em interfaces e automações inteligentes.</p>
           </div>
@@ -180,7 +172,7 @@
           </div>
         </div>
 
-        <div id="sobre" class="section tilt-in-fwd-tl">
+        <div id="sobre" class="section">
           <h1 class="sobre">Sobre</h1>
           <br />
           <hr />
@@ -248,14 +240,14 @@
 
           <div class="ver-projetos">
             <a href="#" onclick="showSection('projetos')" class="btn-saiba-mais"
-              ><i class="fa-solid fa-eye icon-projetos"></i> Ver meus
+              ><i class="fa-solid fa-eye" style="color: #001542"></i> Ver meus
               projetos</a
             >
           </div>
         </div>
 
         <!-- Seção de Habilidades -->
-        <div id="habilidades" class="section soft-hard tilt-in-fwd-br">
+        <div id="habilidades" class="section soft-hard">
           <h1>Habilidades</h1>
           <hr />
 
@@ -277,16 +269,9 @@
               />
             </div>
             <div class="skill-item">
-              HTML5
+              HTML5 / CSS3
               <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-              />
-            </div>
-
-            <div class="skill-item">
-              CSS3
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
               />
             </div>
 
@@ -302,15 +287,7 @@
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg"
               />
             </div>
-            <div class="skill-item git-inverted">
-              WORDPRESS
-
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg"
-              />
-            </div>
-
-            <div class="skill-item git-inverted">
+            <div class="skill-item">
               Git / GitHub
 
               <img
@@ -327,7 +304,7 @@
             </div>
             <div class="skill-item">
               RESOLUÇÃO
-              <img src="assets/resolucao-de-problemas.png" />
+              <img src="assets/problema.png" />
             </div>
             <div class="skill-item">
               ORGANIZAÇÃO
@@ -345,20 +322,10 @@
               PENSAMENTO ANALÍTICO
               <img src="assets/pensamento-analitico.png" />
             </div>
-
-            <div class="skill-item">
-              LIDERANÇA
-              <img src="assets/lideranca.png" />
-            </div>
-
-            <div class="skill-item">
-              LIDERANÇA
-              <img src="assets/gestao-de-tempo.png" />
-            </div>
           </div>
         </div>
 
-        <div id="projetos" class="section tilt-in-fwd-tr">
+        <div id="projetos" class="section">
           <h1>Projetos</h1>
           <hr />
           <div class="galeria">
@@ -562,7 +529,7 @@
             method="POST"
             enctype="multipart/form-data"
           >
-            <i class="fas fa-user"> </i>
+            <i class="fas fa-user"></i>
             <input type="text" name="nome" placeholder="Seu nome" required />
             <i class="fas fa-envelope"></i>
             <input type="email" name="email" placeholder="Seu email" required />
@@ -573,8 +540,8 @@
               placeholder="Sua mensagem"
               required
             ></textarea>
-            <button type="submit" class="btn-enviar">
-              <i class="fas fa-paper-plane"></i> Enviar mensagem
+            <button type="submit">
+              <i class="fas fa-paper-plane"></i> Enviar
             </button>
           </form>
         </section>

@@ -1,0 +1,309 @@
+@media (min-width: 768px){
+  /* Estilos específicos para telas muito pequenas */
+  #particles-js {
+    display: none;
+  }
+
+  .vcard-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+
+    .menu {
+    background: #fff;
+    color: #fff;
+    padding: 30px 10px;
+    margin: 0;
+    max-width: 1000px;
+    border-radius: 6px;
+    height: 100px;
+    border-radius: none;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    width: auto;
+    border-radius: none;
+  }
+
+  .menu a {
+    padding: 0 15px;
+    border-bottom: none;
+  }
+
+  .menu a:hover {
+    color: #747474;
+    transform: translateX(5px);
+  }
+
+  .menu-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    overflow: visible;
+  }
+
+  .menu-item::after {
+    content: attr(data-label);
+    position: absolute;
+    left: 0px;
+    top: -50%;
+    transform: translate3d(30%);
+    background-color: #085454;
+    color: white;
+    padding: 6px 12px;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    opacity: 0;
+    transition: width 0.3s ease, opacity 0.3s ease;
+    font-size: 14px;
+    z-index: 10;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .menu-item:hover::after {
+    width: auto;
+    opacity: 1;
+  }
+
+#home {
+
+
+ }
+
+ h1{font-size: 30px;}
+
+  .text-home {
+
+    margin-top: 150px;
+    font-size: 15px;
+    
+  }
+
+  .container-btn {
+    margin: 120px 0;
+  }
+
+
+}
+
+@media (min-width: 900px){
+  /* Estilos específicos para telas muito pequenas */
+  #particles-js {
+    display: none;
+  }
+
+  .vcard-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100vb;
+  }
+
+
+    .menu {
+    background: #fff;
+    color: #fff;
+    padding: 30px 10px;
+    margin: 0;
+    max-width: 1500px;
+    border-radius: 6px;
+    height: 100px;
+    border-radius: none;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    width: auto;
+    border-radius: none;
+  }
+
+  .menu a {
+    padding: 0 15px;
+    border-bottom: none;
+  }
+
+  .menu a:hover {
+    color: #747474;
+    transform: translateX(5px);
+  }
+
+  .menu-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    overflow: visible;
+  }
+
+  .menu-item::after {
+    content: attr(data-label);
+    position: absolute;
+    left: 0px;
+    top: -50%;
+    transform: translate3d(30%);
+    background-color: #085454;
+    color: white;
+    padding: 6px 12px;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    opacity: 0;
+    transition: width 0.3s ease, opacity 0.3s ease;
+    font-size: 14px;
+    z-index: 10;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .menu-item:hover::after {
+    width: auto;
+    opacity: 1;
+  }
+
+#home {
+
+
+ }
+
+ h1{font-size: 45px;}
+
+  .text-home {
+
+    margin-top: 0px;
+    font-size: 35px;
+    
+  }
+
+  .container-btn {
+    margin: 120px 0;
+  }
+
+
+}
+
+@media (max-width: 1024px){
+  /* Estilos específicos para telas muito pequenas */
+  #particles-js {
+    display: none;
+  }
+
+  .vcard-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+
+    .menu {
+    background: #fff;
+    color: #fff;
+    padding: 30px 10px;
+    margin: 0;
+    max-width: 1500px;
+    border-radius: 6px;
+    height: 100px;
+    border-radius: none;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    width: auto;
+    border-radius: none;
+  }
+
+  .menu a {
+    padding: 0 15px;
+    border-bottom: none;
+  }
+
+  .menu a:hover {
+    color: #747474;
+    transform: translateX(5px);
+  }
+
+  .menu-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    overflow: visible;
+  }
+
+  .menu-item::after {
+    content: attr(data-label);
+    position: absolute;
+    left: 0px;
+    top: -50%;
+    transform: translate3d(30%);
+    background-color: #085454;
+    color: white;
+    padding: 6px 12px;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    opacity: 0;
+    transition: width 0.3s ease, opacity 0.3s ease;
+    font-size: 14px;
+    z-index: 10;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .menu-item:hover::after {
+    width: auto;
+    opacity: 1;
+  }
+
+#home {
+
+
+ }
+
+ h1{font-size: 45px;}
+
+  .text-home {
+
+    margin-top: 150px;
+    font-size: 35px;
+    
+  }
+
+  .container-btn {
+    margin: 120px 0;
+  }
+
+
+}
