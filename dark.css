@@ -47,7 +47,7 @@ body.dark-mode {
 
 body.dark-mode .profile {
   background-color: #1e1e1e;
-  color: #fff;
+  border-top-left-radius: 8px !important;
 }
 
 body.dark-mode .profile h1 {
@@ -63,6 +63,7 @@ body.dark-mode .profile-img-container::before {
   position: absolute;
   inset: 0;
   background-color: #1e1e1eb7;
+  border-top-left-radius: 8px !important;
   z-index: 1;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
 }
@@ -96,14 +97,6 @@ body.dark-mode .profile-img-container img {
         transform: translate(0, 0);
       }
     }
-
-
-/* body.dark-mode .profile-img-container img {
-  border-radius: 10px;
-      pointer-events: none;
-} */
-
-
 
 body.dark-mode .git {
   color: #ffff;
@@ -175,6 +168,14 @@ body.dark-mode .content {
 
 body.dark-mode .card {
   background-color: #0000;
+}
+
+body.dark-mode .text-dark-mode::after {
+  content: " Silva";
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
 }
 
 /* Estilo da secao habilidades*/
