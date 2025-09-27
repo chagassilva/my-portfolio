@@ -144,6 +144,11 @@
             ><i class="fa-brands fa-github git"></i
           ></a>
         </div>
+
+        <div class="curriculo">
+          <a href="#" class="link">Download CV</a>
+          <a href="#" onclick="showSection('contato')">Contato</a>
+        </div>
       </section>
 
       <!-- Conteúdo -->
@@ -361,9 +366,22 @@
         <div id="projetos" class="section tilt-in-fwd-tr">
           <h1>Projetos</h1>
           <hr />
+          <div class="filtros">
+            <button class="data-filter" data-filter="todos">Todos</button>
+            <button class="data-filter" data-filter="ia">IA</button>
+            <button class="data-filter" data-filter="react">React</button>
+            <button class="data-filter" data-filter="javascript">
+              JavaScript
+            </button>
+            <button class="data-filter" data-filter="htmlcss">HTML/CSS</button>
+            <button class="data-filter" data-filter="n8n">N8N</button>
+            <button class="data-filter" data-filter="analise-de-dados">
+              Analise de dados
+            </button>
+          </div>
           <div class="galeria">
             <!-- Projeto 1 -->
-            <div class="card-projeto">
+            <div class="card-projeto n8n">
               <img src="assets/projeto9.png" alt="DevVagas" />
               <div class="overlay">
                 <h2 class="title-projetos">DevVagas</h2>
@@ -397,7 +415,7 @@
             </div>
 
             <!-- Projeto 2 -->
-            <div class="card-projeto">
+            <div class="card-projeto react">
               <img src="assets/projeto1.png" alt="DevUsers" />
               <div class="overlay">
                 <h2 class="title-projetos">DevUsers</h2>
@@ -427,7 +445,7 @@
             </div>
 
             <!-- Projeto 2 -->
-            <div class="card-projeto">
+            <div class="card-projeto ia">
               <img src="assets/projeto2.png" alt="DevAnimation" />
               <div class="overlay">
                 <h2>DevAnimation</h2>
@@ -460,7 +478,7 @@
             </div>
 
             <!-- Projeto 3 -->
-            <div class="card-projeto">
+            <div class="card-projeto react javascript">
               <img src="assets/projeto3.png" alt="Barberho - Elsantiago" />
               <div class="overlay">
                 <h2>Barberho - Elsantiago</h2>
@@ -493,7 +511,7 @@
             </div>
 
             <!-- Projeto 4 -->
-            <div class="card-projeto">
+            <div class="card-projeto javascript htmlcss">
               <img src="assets/projeto7.png" alt="DevPrevisao 2.0" />
               <div class="overlay">
                 <h2>DevPrevisao</h2>
@@ -520,7 +538,7 @@
             </div>
 
             <!-- Projeto 5 -->
-            <div class="card-projeto">
+            <div class="card-projeto javascript htmlcss">
               <img src="assets/projeto6.png" alt="DevPrevisao" />
               <div class="overlay">
                 <h2>DevPrevisao</h2>
@@ -546,7 +564,7 @@
             </div>
 
             <!-- Projeto 6 -->
-            <div class="card-projeto">
+            <div class="card-projeto react n8n">
               <img src="assets/projeto8.png" alt="DevCandidatura" />
               <div class="overlay">
                 <h2>DevCandidatura</h2>
@@ -580,7 +598,7 @@
             </div>
 
             <!-- Projeto 7 -->
-            <div class="card-projeto">
+            <div class="card-projeto javascript htmlcss">
               <img src="assets/projeto4.png" alt="DevConsultas" />
               <div class="overlay">
                 <h2>DevConsultas</h2>
@@ -606,7 +624,7 @@
             </div>
 
             <!-- Projeto 8 -->
-            <div class="card-projeto">
+            <div class="card-projeto javascript htmlcss">
               <img src="assets/projeto5.png" alt="DevCheckout" />
               <div class="overlay">
                 <h2>DevCheckout</h2>
@@ -626,6 +644,72 @@
                   <p class="description">
                     DevCheckout é uma aplicação web desenvolvida para oferecer
                     uma experiência na finalização de compras online.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Projeto 9 -->
+            <div class="card-projeto analise-de-dados">
+              <img src="assets/Background_Vendas.png" alt="Dashboard Vendas" />
+              <div class="overlay">
+                <h2> Dashboard Vendas</h2>
+
+                <a
+                  href="https://app.powerbi.com/view?r=eyJrIjoiMzRjNzZlMDMtYWYwZS00NzQwLWFhNjYtMjMyYmQzZTRkOGMyIiwidCI6Ijk0MDc0NzExLTc1MmMtNDA5My04M2ZiLTIzMGJhMzJlMTVhMSJ9&pageName=e8993d40992e1a6edc40"
+                  target="_blank"
+                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
+                  Projeto</a
+                >
+
+                <div class="badges">
+                  <img
+                    src="assets/powerbi.png"
+                    style="
+                      width: 60px;
+                      height: 60px;
+                      background-color: #fff;
+                      border-radius: 6px;
+                    "
+                    title="Power Bi"
+                  />
+                  <p class="description">
+                    Dashboards interativos e relatórios detalhados para
+                    monitorar vendas, analisar desempenho e identificar
+                    oportunidades de melhoria.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Projeto 10 -->
+            <div class="card-projeto analise-de-dados">
+              <img src="assets/Background_Logistica.png" alt="Dashboard Logistica" />
+              <div class="overlay">
+                <h2>Dashboard Logistica</h2>
+
+                <a
+                  href="https://app.powerbi.com/view?r=eyJrIjoiYTQ4MzkzMTgtNjRlMC00NDVlLThhODAtYjllY2VhNmNmNTYyIiwidCI6Ijk0MDc0NzExLTc1MmMtNDA5My04M2ZiLTIzMGJhMzJlMTVhMSJ9&pageName=7f372c03cebb9584393e"
+                  target="_blank"
+                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
+                  Projeto</a
+                >
+
+                <div class="badges">
+                  <img
+                    src="assets/powerbi.png"
+                    style="
+                      width: 60px;
+                      height: 60px;
+                      background-color: #fff;
+                      border-radius: 6px;
+                    "
+                    title="Power Bi"
+                  />
+                  <p class="description">
+                    Dashboards interativos e relatórios detalhados para otimizar
+                    operações logísticas, melhorar a tomada de decisões e
+                    aumentar a eficiência.
                   </p>
                 </div>
               </div>
