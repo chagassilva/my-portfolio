@@ -73,6 +73,10 @@ body.dark-mode .profile-img-container img {
   animation: raio-impacto 2.5s ease-in-out;
 }
 
+body.dark-mode .link {color: #ffff; border: none;}
+body.dark-mode .link {border-left: 1px solid #ffffff0a;}
+body.dark-mode .curriculo {border-top: 1px solid #ffffff0a;}
+
 /* Estilo do perfil animacao na imagem */
 
 @keyframes raio-impacto {

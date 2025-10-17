@@ -247,6 +247,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-top: 1px solid #cccccc50;
+  backdrop-filter: blur(8px);
 }
 
 .curriculo a {
