@@ -452,7 +452,7 @@ h1 {
 .highlight-text {
   color: #fff;
   background-color: #085454;
-  padding: 8px 18px;
+  padding: 8px 0px;
   font-weight: bold;
   border-radius: 0.7em;
 }
@@ -460,7 +460,7 @@ h1 {
 .highlight-text,
 .flicker-4 {
   -webkit-animation: flicker-4 4s linear infinite both;
-  animation: flicker-4 4s linear infinite both;
+  animation: flicker-4 4s linear infinite both;;
 }
 
 @-webkit-keyframes flicker-4 {
@@ -672,8 +672,8 @@ h1 {
 
 #home h2 {
   text-align: center;
-  font-size: 2.2rem;
-  line-height: 3.8rem;
+  font-size: 2.5rem;
+  line-height: 3.3rem;
   margin-top: 0; /* zera espaçamento indesejado */
   margin-bottom: 20px; /* espaçamento abaixo */
   color: #333;
@@ -1304,27 +1304,4 @@ h1 {
 /* some do layout */
 .card-projeto.hidden {
   display: none;
-}
-
-/* ===== NOVOS DESTAQUES (ANIMAÇÃO) ===== */
-.text-gradient-animado {
-  background: linear-gradient(270deg, #085454, #ffb30d, #001542);
-  background-size: 200% 200%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradient-shift 4s ease infinite;
-  font-weight: 800;
-  display: inline-block;
-}
-
-@keyframes gradient-shift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }

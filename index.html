@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
   <head>
-    <title>Chagas Silva - Portfolio</title>
+    <title>Chagas Silva - Analista de Soluções & Logística</title>
     <meta
       name="description"
-      content="Desenvolvedor Full Stack com foco em soluções modernas, responsivas e eficientes. Portfólio com projetos web e automações."
+      content="Analista de Soluções e Especialista em Logística. Focado em automações (n8n), inteligência de dados (Power BI) e integrações de sistemas."
     />
     <meta
       name="keywords"
-      content="desenvolvedor full stack, portfólio web, programador, front-end, back-end, React, Node.js, automação, projetos, JavaScript"
+      content="analista de soluções, logística, automação, n8n, power bi, análise de dados, integração, python, docker"
     />
     <meta name="author" content="Chagas Silva" />
     <meta name="robots" content="index, follow" />
@@ -16,10 +16,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp, etc) -->
-    <meta property="og:title" content="Chagas Silva" />
+    <meta property="og:title" content="Chagas Silva - Soluções em Logística e Automação" />
     <meta
       property="og:description"
-      content="Desenvolvedor Full Stack com foco em soluções modernas, responsivas e eficientes. Portfólio com projetos web e automações."
+      content="Analista de Soluções unindo operação logística, automações avançadas e inteligência de dados."
     />
     <meta
       property="og:image"
@@ -28,7 +28,7 @@
     <meta property="og:url" content="https://portfolio.chagassilva.com" />
     <meta property="og:type" content="Portfolio" />
 
-    <!-- Favicon (opcional mas recomendado) -->
+    <!-- Favicon -->
     <link rel="icon" href="assets/logo-transparente.svg" type="image/x-icon" />
 
     <link
@@ -55,7 +55,6 @@
       <!-- Menu lateral -->
       <nav class="menu">
         <ul>
-          <!-- <button id="toggle-theme">🌙 Modo Escuro</button> -->
           <li>
             <a href="#" id="">
               <img
@@ -67,50 +66,29 @@
           </li>
 
           <li>
-            <a
-              href="#"
-              onclick="showSection('home')"
-              class="menu-item"
-              data-label="Home"
-            >
+            <a href="#" onclick="showSection('home')" class="menu-item" data-label="Home">
               <i class="fas fa-house"></i>
             </a>
           </li>
           <li>
-            <a
-              href="#"
-              onclick="showSection('sobre')"
-              class="menu-item"
-              data-label="Sobre"
-              ><i class="fas fa-user"></i
-            ></a>
+            <a href="#" onclick="showSection('sobre')" class="menu-item" data-label="Sobre">
+              <i class="fas fa-user"></i>
+            </a>
           </li>
           <li>
-            <a
-              href="#"
-              onclick="showSection('habilidades')"
-              class="menu-item"
-              data-label="Habilidades"
-              ><i class="fas fa-code"></i
-            ></a>
+            <a href="#" onclick="showSection('habilidades')" class="menu-item" data-label="Habilidades">
+              <i class="fas fa-code"></i>
+            </a>
           </li>
           <li>
-            <a
-              href="#"
-              onclick="showSection('projetos')"
-              class="menu-item"
-              data-label="Projetos"
-              ><i class="fas fa-folder-open"></i
-            ></a>
+            <a href="#" onclick="showSection('projetos')" class="menu-item" data-label="Projetos">
+              <i class="fas fa-folder-open"></i>
+            </a>
           </li>
           <li class="noborder">
-            <a
-              href="#"
-              onclick="showSection('contato')"
-              class="menu-item"
-              data-label="Contato"
-              ><i class="fas fa-envelope"></i
-            ></a>
+            <a href="#" onclick="showSection('contato')" class="menu-item" data-label="Contato">
+              <i class="fas fa-envelope"></i>
+            </a>
           </li>
         </ul>
       </nav>
@@ -124,25 +102,18 @@
         <p id="typed-text"></p>
 
         <div class="social-icons">
-          <a
-            href="https://www.linkedin.com/in/chagassilva0409"
-            target="_blank"
-            class="tooltip-custom"
-          >
+          <a href="https://www.linkedin.com/in/chagassilva0409" target="_blank" class="tooltip-custom">
             <span class="tooltip-text">linkedin</span>
             <i class="fa-brands fa-linkedin" style="color: #0b67c1"></i>
           </a>
-          <a
-            href="https://www.instagram.com/chagassilva04"
-            target="_blank"
-            class="tooltip-custom"
-            ><span class="tooltip-text">instagram</span
-            ><i class="fa-brands fa-square-instagram" style="color: #d501cf"></i
-          ></a>
-          <a href="https://github.com/chagassilva" class="tooltip-custom"
-            ><span class="tooltip-text">github</span
-            ><i class="fa-brands fa-github git"></i
-          ></a>
+          <a href="https://www.instagram.com/chagassilva04" target="_blank" class="tooltip-custom">
+            <span class="tooltip-text">instagram</span>
+            <i class="fa-brands fa-square-instagram" style="color: #d501cf"></i>
+          </a>
+          <a href="https://github.com/chagassilva" class="tooltip-custom">
+            <span class="tooltip-text">github</span>
+            <i class="fa-brands fa-github git"></i>
+          </a>
         </div>
 
         <div class="curriculo">
@@ -158,28 +129,22 @@
           <hr />
           <div class="text-home">
             <h2 class="fade-in-up">
-              Oi, eu sou <strong>Chagas Silva</strong>
-              <strong
-                >Desenvolvedor
-                <span class="highlight-text">Front-end</span></strong
-              > & <strong><span class="highlight-text">Análise de dados</span></strong>
-              especializado em automações e integrações com n8n.
+              Oi, eu sou <strong>Chagas Silva</strong><br>
+              <span class="text-gradient-animado titulo-destaque">Analista de Soluções & Especialista em Logística</span>
             </h2>
-            <p>Transformando ideias em interfaces e automações inteligentes.</p>
+            <p class="subtitulo-home">Unindo o conhecimento profundo da operação com automações inteligentes e análise de dados.</p>
           </div>
           <div class="container-btn">
             <a href="#" onclick="showSection('projetos')" class="btn-projetos">
               <button class="tooltip-custom">
                 <span class="tooltip-text">Clique aqui</span>
-                <i class="fa-solid fa-eye" style="color: #001542"></i> Ver
-                Projetos
+                <i class="fa-solid fa-eye" style="color: #001542"></i> Ver Projetos
               </button>
             </a>
             <a href="#" onclick="showSection('sobre')" class="btn-sobre-mim">
               <button class="tooltip-custom">
                 <span class="tooltip-text">Mais sobre mim</span>
-                <i class="fa-solid fa-user" style="color: #ffff"></i> Mais sobre
-                mim
+                <i class="fa-solid fa-user" style="color: #ffff"></i> Mais sobre mim
               </button>
             </a>
           </div>
@@ -190,62 +155,37 @@
           <br />
           <hr />
           <p>
-            Olá! Me chamo <strong>Chagas silva</strong>, desenvolvedor front-end
-            com foco em automações usando n8n, sou apaixonado por tecnologia e
-            soluções criativas. Tenho mais de 6 anos de experiência como gestor
-            de logística, onde desenvolvi um olhar analítico, foco em processos
-            e soluções eficientes — habilidades que hoje aplico na criação de
-            interfaces funcionais e fluxos automatizados para web.
+            Olá! Me chamo <strong>Chagas Silva</strong>. Atuo como Supervisor e Analista de Logística e meu principal diferencial é unir o conhecimento prático e profundo da operação com a análise e o desenvolvimento de soluções tecnológicas.
           </p>
           <br />
-
           <p>
-            Sou graduado em
-            <strong>Gestão da Tecnologia da Informação</strong> e pós-graduado
-            em <strong>Desenvolvimento Full Stack</strong>, o que me dá uma base
-            sólida para atuar tanto no front quanto na integração com APIs e
-            automações.
+            Acredito que a tecnologia deve focar na experiência e na necessidade do usuário final. Por isso, utilizo Inteligência Artificial e ferramentas modernas para acelerar o processo de construção de sistemas, evitando horas exaustivas de programação manual para focar no que realmente importa: <strong>entregar eficiência e valor real para o negócio</strong>.
           </p>
           <br />
-
           <p>
-            Hoje, meu foco é construir aplicações web modernas com
-            <strong>React</strong>, <strong>JavaScript</strong>,
-            <strong>HTML/CSS</strong> e integrar sistemas usando
-            <strong>N8N</strong> para criar experiências completas e produtivas.
-          </p>
-
-          <p>
-            <br />
-            Atualmente, estou disponível para freelas, parcerias ou
-            oportunidades profissionais. Bora construir algo juntos?
+            Minha especialidade é desenvolver ecossistemas integrados — desde a criação de Hubs de Ferramentas para controle operacional até a estruturação de automações complexas utilizando <strong>n8n, Python, Google Apps Script e Docker</strong>. Transformo gargalos logísticos em fluxos automatizados, conectando plataformas através de APIs (como Evolution API e WhatsApp) e gerando visibilidade de margens e resultados através do <strong>Power BI</strong>.
           </p>
 
           <div class="container-section-about">
-            <h3>
-              Transformando ideias em interfaces e automações inteligentes.
-            </h3>
+            <h3>Otimizando a cadeia de suprimentos através da tecnologia.</h3>
             <hr />
             <div class="home-highlights">
               <div class="card">
-                <h3>💻 Front-end Moderno</h3>
+                <h3>🏗️ Análise de Soluções</h3>
                 <p>
-                  Criação de interfaces responsivas e intuitivas usando HTML,
-                  CSS e JS puro, com foco em performance e usabilidade.
+                  Desenvolvimento de Hubs operacionais e aplicativos funcionais focados na usabilidade da equipe e no controle de frotas e transferências.
                 </p>
               </div>
               <div class="card">
-                <h3>🔁 Integrações com n8n</h3>
+                <h3>⚡ Automação Logística</h3>
                 <p>
-                  Automatizações poderosas para APIs, formulários, e-mails,
-                  bancos de dados e muito mais com o n8n.
+                  Fluxos inteligentes em n8n para processamento automático de DANFEs (PDF/XML), integração de APIs de comunicação e gestão de arquivos em nuvem.
                 </p>
               </div>
               <div class="card">
-                <h3>🚀 Projetos Otimizados</h3>
+                <h3>📊 Inteligência de Dados</h3>
                 <p>
-                  Desenvolvimento centrado em agilidade, com código limpo,
-                  componentes reutilizáveis e foco em resultados reais.
+                  Construção de painéis no Power BI para visibilidade total de vendas, margens de lucro, indicadores de RH e performance operacional.
                 </p>
               </div>
             </div>
@@ -253,8 +193,7 @@
 
           <div class="ver-projetos">
             <a href="#" onclick="showSection('projetos')" class="btn-saiba-mais"
-              ><i class="fa-solid fa-eye icon-projetos"></i> Ver meus
-              projetos</a
+              ><i class="fa-solid fa-eye icon-projetos"></i> Ver meus projetos</a
             >
           </div>
         </div>
@@ -267,60 +206,43 @@
           <h2>💻 Hard Skills</h2>
           <div class="skills-grid">
             <div class="skill-item">
-              REACT
-
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
-              />
-            </div>
-
-            <div class="skill-item">
-              JAVASCRIPT
-
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-              />
-            </div>
-            <div class="skill-item">
-              HTML5
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-              />
-            </div>
-
-            <div class="skill-item">
-              CSS3
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-              />
-            </div>
-
-            <div class="skill-item">
               N8N
               <img src="assets/n8n-color.svg" />
             </div>
 
             <div class="skill-item">
-              APIs
-
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg"
-              />
+              POWER BI
+              <img src="assets/powerbi.png" />
             </div>
-            <div class="skill-item git-inverted">
-              WORDPRESS
 
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg"
-              />
+            <div class="skill-item">
+              PYTHON
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+            </div>
+
+            <div class="skill-item">
+              DOCKER
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+            </div>
+
+            <div class="skill-item">
+              APIs & WEBHOOKS
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" />
+            </div>
+
+            <div class="skill-item">
+              REACT
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+            </div>
+
+            <div class="skill-item">
+              JAVASCRIPT
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
             </div>
 
             <div class="skill-item git-inverted">
               Git / GitHub
-
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
-              />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" />
             </div>
           </div>
 
@@ -335,6 +257,14 @@
               <img src="assets/resolucao-de-problemas.png" />
             </div>
             <div class="skill-item">
+              PENSAMENTO ANALÍTICO
+              <img src="assets/pensamento-analitico.png" />
+            </div>
+            <div class="skill-item">
+              LIDERANÇA
+              <img src="assets/lideranca.png" />
+            </div>
+            <div class="skill-item">
               ORGANIZAÇÃO
               <img src="assets/organizacao.png" />
             </div>
@@ -347,484 +277,166 @@
               <img src="assets/diversidade.png" />
             </div>
             <div class="skill-item">
-              PENSAMENTO ANALÍTICO
-              <img src="assets/pensamento-analitico.png" />
-            </div>
-
-            <div class="skill-item">
-              LIDERANÇA
-              <img src="assets/lideranca.png" />
-            </div>
-
-            <div class="skill-item">
-              LIDERANÇA
+              GESTÃO DE TEMPO
               <img src="assets/gestao-de-tempo.png" />
             </div>
           </div>
         </div>
 
         <div id="projetos" class="section tilt-in-fwd-tr">
-          <h1>Projetos</h1>
+          <h1>Projetos em Destaque</h1>
           <hr />
           <div class="filtros">
-            <button class="data-filter" data-filter="todos">Todos</button>
-            <button class="data-filter" data-filter="ia">IA</button>
-            <button class="data-filter" data-filter="react">React</button>
-            <button class="data-filter" data-filter="javascript">
-              JavaScript
-            </button>
-            <button class="data-filter" data-filter="htmlcss">HTML/CSS</button>
-            <button class="data-filter" data-filter="n8n">N8N</button>
-            <button class="data-filter" data-filter="analise-de-dados">
-              Analise de dados
-            </button>
+            <button class="data-filter active" data-filter="todos">Todos</button>
+            <button class="data-filter" data-filter="logistica">Logística</button>
+            <button class="data-filter" data-filter="dashboards">Dashboards</button>
+            <button class="data-filter" data-filter="automacao">Automação & IA</button>
+            <button class="data-filter" data-filter="desenvolvimento">Desenvolvimento</button>
           </div>
           <div class="galeria">
-            <!-- Projeto 1 -->
-            <div class="card-projeto n8n">
-              <img src="assets/projeto9.png" alt="DevVagas" />
-              <div class="overlay">
-                <h2 class="title-projetos">DevVagas</h2>
 
-                <a href="https://devvagas.chagassilva.com" target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
-
-                <div class="badges">
-                  <i class="devicon-html5-plain colored" title="HTML"></i>
-                  <i class="devicon-css3-plain colored" title="CSS"></i>
-                  <i
-                    class="devicon-javascript-plain colored"
-                    title="JavaScript"
-                  ></i>
-                  <span class="badge-ai icon" title="Inteligência Artificial"
-                    >✨</span
-                  >
-                  <span class="badge-ai">
-                    <img src="assets/n8n-color.svg" title="N8N" />
-                    >
-                  </span>
-
-                  <p class="description">
-                    DevVagas é uma automação inteligente para buscar vagas de
-                    emprego no LinkedIn.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Projeto 2 -->
-            <div class="card-projeto react">
-              <img src="assets/projeto1.png" alt="DevUsers" />
-              <div class="overlay">
-                <h2 class="title-projetos">DevUsers</h2>
-
-                <a href="https://devusuario.chagassilva.com" target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
-
-                <div class="badges">
-                  <i class="devicon-html5-plain colored" title="HTML"></i>
-                  <i class="devicon-css3-plain colored" title="CSS"></i>
-                  <i
-                    class="devicon-javascript-plain colored"
-                    title="JavaScript"
-                  ></i>
-                  <i class="devicon-prisma-original colored" title="Prisma"></i>
-
-                  <i class="devicon-react-original-wordmark colored"></i>
-
-                  <p class="description">
-                    DevUser é uma aplicação web simples e intuitiva desenvolvida
-                    com foco no cadastro.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Projeto 2 -->
-            <div class="card-projeto ia">
-              <img src="assets/projeto2.png" alt="DevAnimation" />
-              <div class="overlay">
-                <h2>DevAnimation</h2>
-
-                <a href="https://cssanimationia.chagassilva.com" target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
-
-                <div class="badges">
-                  <i class="devicon-html5-plain colored" title="HTML"></i>
-                  <i class="devicon-css3-plain colored" title="CSS"></i>
-                  <i
-                    class="devicon-javascript-plain colored"
-                    title="JavaScript"
-                  ></i>
-                  <span class="badge-ai icon" title="Inteligência Artificial"
-                    >✨</span
-                  >
-                  <span class="badge-ai">
-                    <img src="assets/n8n-color.svg" title="N8N" />
-                    >
-                  </span>
-                  <p class="description">
-                    DevAnimation é uma aplicação web que permite criar animações
-                    CSS de forma rápida, visual e inteligente.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Projeto 3 -->
-            <div class="card-projeto react javascript">
-              <img src="assets/projeto3.png" alt="Barberho - Elsantiago" />
-              <div class="overlay">
-                <h2>Barberho - Elsantiago</h2>
-
-                <a href="https://barbershop.chagassilva.com" target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
-
-                <div class="badges">
-                  <i class="devicon-html5-plain colored" title="HTML"></i>
-                  <i class="devicon-css3-plain colored" title="CSS"></i>
-                  <i
-                    class="devicon-javascript-plain colored"
-                    title="JavaScript"
-                  ></i>
-                  <span class="badge-ai icon" title="Inteligência Artificial"
-                    >✨</span
-                  >
-                  <span class="badge-ai">
-                    <img src="assets/n8n-color.svg" title="N8N" />
-                    >
-                  </span>
-                  <p class="description">
-                    Oferecemos cortes modernos, barba impecável e um atendimento
-                    diferenciado em um ambiente descontraído e acolhedor.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Projeto 4 -->
-            <div class="card-projeto javascript htmlcss">
-              <img src="assets/projeto7.png" alt="DevPrevisao 2.0" />
-              <div class="overlay">
-                <h2>DevPrevisao</h2>
-
-                <a href="https://previsao20.chagassilva.com" target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
-
-                <div class="badges">
-                  <i class="devicon-html5-plain colored" title="HTML"></i>
-                  <i class="devicon-css3-plain colored" title="CSS"></i>
-                  <i
-                    class="devicon-javascript-plain colored"
-                    title="JavaScript"
-                  ></i>
-                  <p class="description">
-                    O DevPrevisao agora na versão 2.0 nasceu com o objetivo de
-                    oferecer uma previsão do tempo prática, rápida e confiável
-                    para o seu dia a dia.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Projeto 5 -->
-            <div class="card-projeto javascript htmlcss">
-              <img src="assets/projeto6.png" alt="DevPrevisao" />
-              <div class="overlay">
-                <h2>DevPrevisao</h2>
-
-                <a href="https://previsao.chagassilva.com" target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
-
-                <div class="badges">
-                  <i class="devicon-html5-plain colored" title="HTML"></i>
-                  <i class="devicon-css3-plain colored" title="CSS"></i>
-                  <i
-                    class="devicon-javascript-plain colored"
-                    title="JavaScript"
-                  ></i>
-                  <p class="description">
-                    O DevPrevisao nasceu com o objetivo de oferecer uma previsão
-                    do tempo prática, rápida e confiável para o seu dia a dia.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Projeto 6 -->
-            <div class="card-projeto react n8n">
-              <img src="assets/projeto8.png" alt="DevCandidatura" />
-              <div class="overlay">
-                <h2>DevCandidatura</h2>
-
-                <a href="https://vagas.chagassilva.com" target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
-
-                <div class="badges">
-                  <i class="devicon-html5-plain colored" title="HTML"></i>
-                  <i class="devicon-css3-plain colored" title="CSS"></i>
-                  <i
-                    class="devicon-javascript-plain colored"
-                    title="JavaScript"
-                  ></i>
-                  <span class="badge-ai icon" title="Inteligência Artificial"
-                    >✨</span
-                  >
-                  <span class="badge-ai">
-                    <img src="assets/n8n-color.svg" title="N8N" />
-                    >
-                  </span>
-                  <p class="description">
-                    Uma automação prática para agilizar o processo de seleção de
-                    desenvolvedores. Recebe candidaturas via formulário,
-                    organiza dados do candidato etc..
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Projeto 7 -->
-            <div class="card-projeto javascript htmlcss">
-              <img src="assets/projeto4.png" alt="DevConsultas" />
-              <div class="overlay">
-                <h2>DevConsultas</h2>
-
-                <a href="https://devconsultas.chagassilva.com" target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
-
-                <div class="badges">
-                  <i class="devicon-html5-plain colored" title="HTML"></i>
-                  <i class="devicon-css3-plain colored" title="CSS"></i>
-                  <i
-                    class="devicon-javascript-plain colored"
-                    title="JavaScript"
-                  ></i>
-                  <p class="description">
-                    DevConsultas é uma aplicação web desenvolvida para facilitar
-                    o agendamento de consultas médicas.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Projeto 8 -->
-            <div class="card-projeto javascript htmlcss">
-              <img src="assets/projeto5.png" alt="DevCheckout" />
-              <div class="overlay">
-                <h2>DevCheckout</h2>
-
-                <a href="https://checkout.chagassilva.com" target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
-
-                <div class="badges">
-                  <i class="devicon-html5-plain colored" title="HTML"></i>
-                  <i class="devicon-css3-plain colored" title="CSS"></i>
-                  <i
-                    class="devicon-javascript-plain colored"
-                    title="JavaScript"
-                  ></i>
-                  <p class="description">
-                    DevCheckout é uma aplicação web desenvolvida para oferecer
-                    uma experiência na finalização de compras online.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-             <!-- Projeto 12 -->
-            <div class="card-projeto react n8n">
-              <img src="assets/projeto12.png" alt="DevRh" />
-              <div class="overlay">
-                <h2>DevRH</h2>
-
-                <a href="https://rh.chagassilva.com/login" target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
-
-                <div class="badges">              
-                   <i class="devicon-react-original-wordmark colored" title="React"></i>              
-                  <span class="badge-ai">
-                    <img src="assets/n8n-color.svg" title="N8N" />
-                    >
-                  </span>
-                  <p class="description">
-                    DevRH é uma aplicação web desenvolvida para facilitar a
-                    gestão de recursos humanos.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-
-            <!-- Projeto 9 -->
-            <div class="card-projeto analise-de-dados">
-              <img src="assets/Background_Vendas.png" alt="Dashboard Vendas" />
-              <div class="overlay">
-                <h2> Dashboard Vendas</h2>
-
-                <a
-                  href="https://app.powerbi.com/view?r=eyJrIjoiMzRjNzZlMDMtYWYwZS00NzQwLWFhNjYtMjMyYmQzZTRkOGMyIiwidCI6Ijk0MDc0NzExLTc1MmMtNDA5My04M2ZiLTIzMGJhMzJlMTVhMSJ9&pageName=e8993d40992e1a6edc40"
-                  target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
-
-                <div class="badges">
-                  <img
-                    src="assets/powerbi.png"
-                    style="
-                      width: 60px;
-                      height: 60px;
-                      background-color: #fff;
-                      border-radius: 6px;
-                    "
-                    title="Power Bi"
-                  />
-                  <p class="description">
-                    Dashboards interativos e relatórios detalhados para
-                    monitorar vendas, analisar desempenho e identificar
-                    oportunidades de melhoria.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Projeto 10 -->
-            <div class="card-projeto analise-de-dados">
+            <!-- Projeto 1: Dashboard Logistica -->
+            <div class="card-projeto dashboards logistica">
               <img src="assets/Background_Logistica.png" alt="Dashboard Logistica" />
               <div class="overlay">
-                <h2>Dashboard Logistica</h2>
+                <h2>Dashboard Logística</h2>
 
-                <a
-                  href="https://app.powerbi.com/view?r=eyJrIjoiYTQ4MzkzMTgtNjRlMC00NDVlLThhODAtYjllY2VhNmNmNTYyIiwidCI6Ijk0MDc0NzExLTc1MmMtNDA5My04M2ZiLTIzMGJhMzJlMTVhMSJ9&pageName=7f372c03cebb9584393e"
-                  target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiYTQ4MzkzMTgtNjRlMC00NDVlLThhODAtYjllY2VhNmNmNTYyIiwidCI6Ijk0MDc0NzExLTc1MmMtNDA5My04M2ZiLTIzMGJhMzJlMTVhMSJ9&pageName=7f372c03cebb9584393e" target="_blank">
+                  <i class="fa-solid fa-eye" style="color: #fff"></i> Ver Projeto
+                </a>
 
                 <div class="badges">
-                  <img
-                    src="assets/powerbi.png"
-                    style="
-                      width: 60px;
-                      height: 60px;
-                      background-color: #fff;
-                      border-radius: 6px;
-                    "
-                    title="Power Bi"
-                  />
+                  <img src="assets/powerbi.png" style="width: 40px; height: 40px; background-color: #fff; border-radius: 6px;" title="Power Bi" />
                   <p class="description">
-                    Dashboards interativos e relatórios detalhados para otimizar
-                    operações logísticas, melhorar a tomada de decisões e
-                    aumentar a eficiência.
+                    Relatórios detalhados para otimizar operações logísticas de distribuidoras, controlar transferências e aumentar a eficiência da frota.
                   </p>
                 </div>
               </div>
             </div>
 
-              <!-- Projeto 11 -->
-            <div class="card-projeto analise-de-dados">
+            <!-- Projeto 2: Automação DANFE -->
+            <div class="card-projeto automacao logistica">
+              <img src="assets/projeto9.png" alt="Automação DANFE" />
+              <div class="overlay">
+                <h2 class="title-projetos">Processamento Fiscal Automatizado</h2>
+
+                <a href="#" target="_blank"><i class="fa-solid fa-eye" style="color: #fff"></i> Uso Interno</a>
+
+                <div class="badges">
+                  <span class="badge-ai">
+                    <img src="assets/n8n-color.svg" title="N8N" />
+                  </span>
+                  <i class="devicon-google-plain colored" title="Google Drive / Apps Script"></i>
+                  <p class="description">
+                    Sistema em n8n que extrai dados automaticamente de arquivos DANFE (PDF e XML) e organiza os documentos por ano e mês no Google Drive.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Projeto 3: Hub de Ferramentas -->
+            <div class="card-projeto logistica desenvolvimento">
+              <img src="assets/projeto1.png" alt="Hub de Ferramentas" />
+              <div class="overlay">
+                <h2 class="title-projetos">Hub de Ferramentas Logísticas</h2>
+
+                <a href="#" target="_blank"><i class="fa-solid fa-eye" style="color: #fff"></i> Uso Interno</a>
+
+                <div class="badges">
+                  <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+                  <i class="devicon-html5-plain colored" title="HTML"></i>
+                  <p class="description">
+                    Portal centralizado com foco no usuário final, unificando Portal de Notas, geração de Etiquetas de Transferência e Relatórios Curva ABC.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Projeto 4: Dashboard Vendas -->
+            <div class="card-projeto dashboards">
+              <img src="assets/Background_Vendas.png" alt="Dashboard Vendas" />
+              <div class="overlay">
+                <h2>Dashboard Vendas & Margens</h2>
+
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiMzRjNzZlMDMtYWYwZS00NzQwLWFhNjYtMjMyYmQzZTRkOGMyIiwidCI6Ijk0MDc0NzExLTc1MmMtNDA5My04M2ZiLTIzMGJhMzJlMTVhMSJ9&pageName=e8993d40992e1a6edc40" target="_blank">
+                  <i class="fa-solid fa-eye" style="color: #fff"></i> Ver Projeto
+                </a>
+
+                <div class="badges">
+                  <img src="assets/powerbi.png" style="width: 40px; height: 40px; background-color: #fff; border-radius: 6px;" title="Power Bi" />
+                  <p class="description">
+                    Painel interativo estruturado para exibir claramente a margem de lucro e o desempenho comercial, facilitando a tomada de decisão.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Projeto 5: API WhatsApp -->
+            <div class="card-projeto automacao logistica">
+              <img src="assets/projeto8.png" alt="Integração WhatsApp" />
+              <div class="overlay">
+                <h2>Integração WhatsApp & ERP</h2>
+
+                <a href="#" target="_blank"><i class="fa-solid fa-eye" style="color: #fff"></i> Uso Interno</a>
+
+                <div class="badges">
+                  <span class="badge-ai">
+                    <img src="assets/n8n-color.svg" title="N8N" />
+                  </span>
+                  <i class="devicon-docker-plain colored" title="Docker"></i>
+                  <p class="description">
+                    Arquitetura de comunicação utilizando Evolution API hospedada em Docker para disparos de avisos operacionais automatizados via webhooks.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Projeto 6: Dashboard RH -->
+            <div class="card-projeto dashboards">
               <img src="assets/projeto11.png" alt="Dashboard RH" />
               <div class="overlay">
                 <h2>Dashboard RH</h2>
 
-                <a
-                  href="https://app.powerbi.com/view?r=eyJrIjoiNzhmMWM1MDQtZDRlZS00NGE3LTk1OGItNzdjNDllYTUwNzcwIiwidCI6Ijk0MDc0NzExLTc1MmMtNDA5My04M2ZiLTIzMGJhMzJlMTVhMSJ9&pageName=c52a60e0947b79b13127"
-                  target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiNzhmMWM1MDQtZDRlZS00NGE3LTk1OGItNzdjNDllYTUwNzcwIiwidCI6Ijk0MDc0NzExLTc1MmMtNDA5My04M2ZiLTIzMGJhMzJlMTVhMSJ9&pageName=c52a60e0947b79b13127" target="_blank">
+                  <i class="fa-solid fa-eye" style="color: #fff"></i> Ver Projeto
+                </a>
 
                 <div class="badges">
-                  <img
-                    src="assets/powerbi.png"
-                    style="
-                      width: 60px;
-                      height: 60px;
-                      background-color: #fff;
-                      border-radius: 6px;
-                    "
-                    title="Power Bi"
-                  />
+                  <img src="assets/powerbi.png" style="width: 40px; height: 40px; background-color: #fff; border-radius: 6px;" title="Power Bi" />
                   <p class="description">
-                    Dashboard interativo para gestão de recursos humanos, com
-                    métricas de desempenho, rotatividade e satisfação dos colaboradores.
+                    Dashboard interativo para gestão de recursos humanos, com métricas de desempenho e rotatividade dos colaboradores.
                   </p>
                 </div>
               </div>
             </div>
 
-               <!-- Projeto 13 -->
-            <div class="card-projeto analise-de-dados">
-              <img src="assets/projeto13.jpg" alt="Dashboard Financeiro" />
+            <!-- Projeto 7: Animações IA -->
+            <div class="card-projeto desenvolvimento automacao">
+              <img src="assets/projeto2.png" alt="DevAnimation" />
               <div class="overlay">
-                <h2>Dashboard Financeiro</h2>
+                <h2>DevAnimation com IA</h2>
 
-                <a
-                  href="https://app.powerbi.com/view?r=eyJrIjoiNmEyYWIxZWYtZjgwYy00YmI5LTg0ZWMtNjhlYzNhMGFkZTZmIiwidCI6Ijk0MDc0NzExLTc1MmMtNDA5My04M2ZiLTIzMGJhMzJlMTVhMSJ9&pageName=a2c6adb10262d42548d0"
-                  target="_blank"
-                  ><i class="fa-solid fa-eye" style="color: #fff"></i> Ver
-                  Projeto</a
-                >
+                <a href="https://cssanimationia.chagassilva.com" target="_blank">
+                  <i class="fa-solid fa-eye" style="color: #fff"></i> Ver Projeto
+                </a>
 
                 <div class="badges">
-                  <img
-                    src="assets/powerbi.png"
-                    style="
-                      width: 60px;
-                      height: 60px;
-                      background-color: #fff;
-                      border-radius: 6px;
-                    "
-                    title="Power Bi"
-                  />
+                  <span class="badge-ai icon" title="Inteligência Artificial">✨</span>
+                  <i class="devicon-javascript-plain colored" title="JavaScript"></i>
                   <p class="description">
-                    dashboard interativo para gestão financeira, com análise de receitas, despesas pessoal.
+                    Uso de modelos de IA integrados a interfaces web para geração de animações e aceleração do desenvolvimento front-end.
                   </p>
                 </div>
               </div>
             </div>
-
 
           </div>
         </div>
 
         <!-- Contato -->
-        <!-- Contato -->
         <section id="contato" class="section-contato section">
           <h1>Contato</h1>
           <hr />
-
-          <div class="contato-info">
-            <!-- <p>
-              <i class="fas fa-envelope"></i>
-              <a href="mailto:voce@email.com">voce@email.com</a>
-            </p>
-            <p>
-              <a href="https://wa.me/5500000000000" target="_blank">
-                <i class="fab fa-whatsapp"></i> Fale comigo pelo WhatsApp
-              </a>
-            </p> -->
-          </div>
 
           <form
             class="form-contato"
@@ -840,7 +452,7 @@
             <textarea
               name="mensagem"
               rows="5"
-              placeholder="Sua mensagem"
+              placeholder="Sua mensagem sobre logística ou automação"
               required
             ></textarea>
             <button type="submit" class="btn-enviar">
@@ -863,7 +475,12 @@
 
     <script>
       const typed = new Typed("#typed-text", {
-        strings: ["Web Developer", "Frontend", "Analista De Dados", "AUTOMAÇÕES N8N"],
+        strings: [
+          "Gestão de Logística",
+          "Analista de Soluções",
+          "Análise de Dados",
+          "Automações com n8n e IA"
+        ],
         typeSpeed: 70,
         backSpeed: 50,
         backDelay: 1500,
