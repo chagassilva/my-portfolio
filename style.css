@@ -1310,8 +1310,10 @@ h1 {
 .text-gradient-animado {
   background: linear-gradient(270deg, #085454, #ffb30d, #001542);
   background-size: 200% 200%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
   animation: gradient-shift 4s ease infinite;
   font-weight: 800;
   display: inline-block;
